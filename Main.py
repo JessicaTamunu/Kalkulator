@@ -6,3 +6,8 @@ print("1. Tambah")
 print("2. Kurang")
 print("3. Kali")
 print("4. Bagi")
+
+pilihan = input("Pilih operasi (1/2/3/4): ")
+
+angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
