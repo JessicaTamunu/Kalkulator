@@ -1,6 +1,9 @@
 def tambah(a, b):
     return a + b
 
+def kurang(a, b):
+    return a - b
+
 print("=== KALKULATOR KELOMPOK ===")
 print("1. Tambah")
 print("2. Kurang")
@@ -14,3 +17,5 @@ angka2 = float(input("Masukkan angka kedua: "))
 
 if pilihan == "1":
     print("Hasil:", tambah(angka1, angka2))
+elif pilihan == "2":
+    print("Hasil:", kurang(angka1, angka2))
